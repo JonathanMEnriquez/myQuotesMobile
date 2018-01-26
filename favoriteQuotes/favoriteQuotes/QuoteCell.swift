@@ -1,5 +1,5 @@
 //
-//  TypeCell.swift
+//  QuoteCell.swift
 //  favoriteQuotes
 //
 //  Created by user on 1/25/18.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class TypeCell: UITableViewCell {
+class QuoteCell: UITableViewCell {
 
-    @IBOutlet var categoryLabel: UILabel!
-    @IBOutlet var cellImage: UIImageView!
+    @IBOutlet var quoteLabel: UILabel!
+    @IBOutlet var fromLabel: UILabel!
+    @IBOutlet var creatorLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,7 +22,6 @@ class TypeCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
 
 }

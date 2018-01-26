@@ -16,6 +16,11 @@
 		CE0D89F3201A7356000D71E0 /* favoriteQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D89F2201A7356000D71E0 /* favoriteQuotesTests.swift */; };
 		CE0D89FE201A7356000D71E0 /* favoriteQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D89FD201A7356000D71E0 /* favoriteQuotesUITests.swift */; };
 		CE0D8A0C201A7CB6000D71E0 /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D8A0B201A7CB6000D71E0 /* TypeCell.swift */; };
+		CE0D8A0E201A8CFF000D71E0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D8A0D201A8CFF000D71E0 /* AddViewController.swift */; };
+		CE0D8A10201A96E3000D71E0 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0D8A0F201A96E3000D71E0 /* Protocols.swift */; };
+		CEC95CC3201AB1AC00076778 /* ShowTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC95CC2201AB1AC00076778 /* ShowTableViewController.swift */; };
+		CEC95CC5201AB45E00076778 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC95CC4201AB45E00076778 /* QuoteCell.swift */; };
+		CEC95CC9201ABD3600076778 /* UpdateDeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC95CC8201ABD3600076778 /* UpdateDeleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		CE0D89FD201A7356000D71E0 /* favoriteQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteQuotesUITests.swift; sourceTree = "<group>"; };
 		CE0D89FF201A7356000D71E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE0D8A0B201A7CB6000D71E0 /* TypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
+		CE0D8A0D201A8CFF000D71E0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		CE0D8A0F201A96E3000D71E0 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		CEC95CC2201AB1AC00076778 /* ShowTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTableViewController.swift; sourceTree = "<group>"; };
+		CEC95CC4201AB45E00076778 /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
+		CEC95CC8201ABD3600076778 /* UpdateDeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDeleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +113,17 @@
 			children = (
 				CE0D89DE201A7356000D71E0 /* Main.storyboard */,
 				CE0D89DC201A7356000D71E0 /* QuotesViewController.swift */,
+				CE0D8A0D201A8CFF000D71E0 /* AddViewController.swift */,
+				CEC95CC2201AB1AC00076778 /* ShowTableViewController.swift */,
+				CEC95CC8201ABD3600076778 /* UpdateDeleteViewController.swift */,
 				CE0D89E4201A7356000D71E0 /* Assets.xcassets */,
 				CE0D89E6201A7356000D71E0 /* LaunchScreen.storyboard */,
 				CE0D89E9201A7356000D71E0 /* Info.plist */,
 				CE0D89DA201A7355000D71E0 /* AppDelegate.swift */,
 				CE0D89E1201A7356000D71E0 /* favoriteQuotes.xcdatamodeld */,
 				CE0D8A0B201A7CB6000D71E0 /* TypeCell.swift */,
+				CE0D8A0F201A96E3000D71E0 /* Protocols.swift */,
+				CEC95CC4201AB45E00076778 /* QuoteCell.swift */,
 			);
 			path = favoriteQuotes;
 			sourceTree = "<group>";
@@ -265,9 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC95CC5201AB45E00076778 /* QuoteCell.swift in Sources */,
+				CE0D8A0E201A8CFF000D71E0 /* AddViewController.swift in Sources */,
 				CE0D89E3201A7356000D71E0 /* favoriteQuotes.xcdatamodeld in Sources */,
+				CEC95CC9201ABD3600076778 /* UpdateDeleteViewController.swift in Sources */,
 				CE0D89DD201A7356000D71E0 /* QuotesViewController.swift in Sources */,
+				CE0D8A10201A96E3000D71E0 /* Protocols.swift in Sources */,
 				CE0D89DB201A7355000D71E0 /* AppDelegate.swift in Sources */,
+				CEC95CC3201AB1AC00076778 /* ShowTableViewController.swift in Sources */,
 				CE0D8A0C201A7CB6000D71E0 /* TypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
